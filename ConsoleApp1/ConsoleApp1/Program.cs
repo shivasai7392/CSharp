@@ -6,19 +6,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            //string
-            string name = "shiva";
-            Console.WriteLine(name);//output : shiva
+            int? i = 0;
+            i = null;
+            int a = i ?? 10;
+            Console.WriteLine(a);
 
-            name = "\"shiva\"";
-            Console.WriteLine(name);//output : "shiva" - this is called escape sequences
 
-            name = "One\nTwo\nThree";
-            Console.WriteLine(name);//output : One
-            //                                 Two
-            //                                 Three
-            name = @"One\nTwo\nThree";
-            Console.WriteLine(name);//output : One/Two/Three
+            
         }
     }
 }
