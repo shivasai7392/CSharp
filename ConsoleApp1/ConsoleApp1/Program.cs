@@ -6,21 +6,17 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            // boolean
-            bool major = true;
+            //string
+            string name = "shiva";
+            Console.WriteLine(name);//output : shiva
 
-            //integer
-            int i = 0;
-            Console.WriteLine(int.MinValue);
-            Console.WriteLine(int.MaxValue);
+            name = "\"shiva\"";
+            Console.WriteLine(name);//output : "shiva" - this is called escape sequences
 
-            uint ui = 0;
-            Console.WriteLine(uint.MinValue);
-            Console.WriteLine(uint.MaxValue);
-
-            //flaoting
-            float f = 0;
-            double d = 0.0;
+            name = "One\nTwo\nThree";
+            Console.WriteLine(name);//output : One
+            //                                 Two
+            //                                 Three
         }
     }
 }
