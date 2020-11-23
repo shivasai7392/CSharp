@@ -6,16 +6,21 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Please enter your name");
-            string username = Console.ReadLine();
+            // boolean
+            bool major = true;
 
-            //using concatenation
-            Console.WriteLine("Hello " + username);
+            //integer
+            int i = 0;
+            Console.WriteLine(int.MinValue);
+            Console.WriteLine(int.MaxValue);
 
-            //using placeholder
-            Console.WriteLine("Hello {0}", username);
+            uint ui = 0;
+            Console.WriteLine(uint.MinValue);
+            Console.WriteLine(uint.MaxValue);
 
-
+            //flaoting
+            float f = 0;
+            double d = 0.0;
         }
     }
 }
