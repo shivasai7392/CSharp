@@ -17,6 +17,8 @@ namespace ConsoleApp1
             Console.WriteLine(name);//output : One
             //                                 Two
             //                                 Three
+            name = @"One\nTwo\nThree";
+            Console.WriteLine(name);//output : One/Two/Three
         }
     }
 }
